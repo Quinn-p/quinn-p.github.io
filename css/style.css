@@ -1,22 +1,105 @@
 body{
-    background-color: #3AAFA9;
-}
-nav{
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f2;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
 }
+
+
 h1{
-    color:#FEFFFF;
+    color:#388087;
+    
 }
 
 h2{
-    color: #DEF2F1;
+    color: #388087;
 }
 
 h3{
-    color: #2B7A78;
+    color: #388087;
 }
 
 p{
-    color: #17252A;
+    color: #388087;
 }
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #BADFE7;
+}
+.topbar h1{
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-top: 6px;
+
+}
+
+#sidebar-menu ul{
+    width: auto;
+    float:right;
+    margin-top: 19px;
+}
+
+#sidebar-menu li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+#sidebar-menu a{
+    text-align: center;
+    text-decoration: none;
+    color: #388087;
+    font-weight: bold;
+    padding: 8px;
+    
+}
+
+#sidebar-menu a:hover{
+    background-color: gainsboro;
+    text-decoration: underline;
+}
+
+img{
+    margin-top:30px;
+    margin-left: 5%;
+    
+}
+
+.About{
+    margin:0% 5%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.Introduction{
+    margin: 5%;
+}
+
+.Portfolio{
+    margin: 5%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ProjTitle{
+    flex: 0 0 100%;
+}
+
+.Portfolio img{
+    width: 300px;
+}
+
+.Portfolio h3{
+    text-align: center;
+}
+
+.Contact {
+    margin: 5%;
+}
+

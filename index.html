@@ -7,31 +7,99 @@
         <link href="css/style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <nav>
-            <ul>
-                <a href="#">Home</a>
-                <a href="html/portfolio.html">Portfolio</a>
-                <a href="html/about.html">About Me</a>
-            </ul>
-        </nav>
+        <div class="topbar">
+            <header>
+                <h1>Quinn Peterson</h1>
+                <nav id="sidebar-menu">
+                    <ul>
+                        <a href="#">Home</a></li>
+                        <a href="">Portfolio</a>
+                        <a href="">About Me</a>
+                        <a href="#">Contact</a>
+                    </ul>
+            </header>
+            </nav>
+        </div>
+        
         <img src="Images/QuinnPortrait12-4-22.jpeg" alt="Portrait Picture" style="width: 300px;">
-        <h1>Quinn Peterson</h1>
-        <h2>Software Developer</h2>
-        <h3>Colorado State University</h3><br>
-        <h3>Contact Me:</h3>
-        <form autocomplete="on">
-            <label for="fname">First name: </label>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="lname">Last name: </label>
-            <input type="text" id="lname" name="lname"><br>
-            <label for="email">Email address: </label>
-            <input type="text" id="email" name="email"><br>
-            <textarea name="message" rows="10" cols="100">Enter message here.
-            </textarea>
-            <input type="submit" value="Submit">
+        <div class="Introduction">
+            <h2>About Me</h2>
+            <p>Hello, I am Quinn Peterson, future Software Developer and I am an undergraduate 
+                Computer Science student at Colorado State University. 
+                I love learning about many aspects of technology and continue to be surprised 
+                by the innovative solutions and advancements that come with each year.</p>
+        </div>
 
+        <div class="About">
+            <div class = "Eductaion">
+                <h4>Eductaion:</h4>
+                <p>Expected Graduation: May 2025<br>
+                    Colorado State University(CSU), Fort Collins, CO<br>
+                    Computer Science, Concentration: Software engineering<br>
+                    GPA: 3.827
+                </p>
+            </div>
 
-            
-        </form>
+            <div class="Experience">
+            <h4>Experience:</h4>
+                <p>Undergraduate Teaching Assistant<br>
+                    Colorado State University Computer Science Department</p>
+            </div>
+
+            <div class="Skills">
+                <h4>Skills</h4>
+                <p>Ability to collaborate with a team in a clear and coherent manner.<br>
+                Developed customer service skills as an office associateat a raft company.</p>
+                <p>Languages:</p>
+                <ul>
+                    <li>JAVA</li>
+                    <li>C++</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+                
+            </div>
+        </div>
+
+        
+        <div class="Portfolio">
+            <div class="ProjTitle">
+                <h2>Projects:</h2>
+            </div>
+            <div class="Project1">
+                <img src="Images/htmlpic.jpg"alt="html picture">
+              <h3><a href="https://github.com/Quinn-p/PortfolioWebsite">Personal Webpage</a></h3>
+            </div>
+            <div class="Project2">
+                <img src="Images/Bank.jpg" alt="bank picture">
+               <h3><a href="https://github.com/Quinn-p/BankingApp">Banking Application</a></h3>
+            </div>
+            <div class="Project3">
+                <img src="Images/todoList.jpg" alt="todo List Picture">
+                <h3><a href="https://github.com/Quinn-p/TodoListProject">ToDo List Application</a></h3>
+            </div>
+        </div>
+
+        <div class ="Contact">
+            <h4>Contact Me:</h4>
+            <p>Email: quinn.peterson@colostate.edu</p>
+            <form autocomplete="on">
+                <label for="fname">First name: </label>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name: </label>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">Email address: </label>
+                <input type="text" id="email" name="email"><br>
+                <textarea name="message" rows="10" cols="100">Enter message here.
+                </textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div class="FooterBox">
+            <footer>
+                <p>Social Media and links</p>
+            </footer>
+        </div>
     </body>
 </html>
