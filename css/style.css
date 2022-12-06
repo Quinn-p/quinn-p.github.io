@@ -5,6 +5,13 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+input[type=submit] {
+    color:#388087;
+    border: none;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+ }
 
 h1{
     color:#388087;
@@ -72,7 +79,6 @@ header {
     max-width: 100%;
     display: flex;
     justify-content: space-around;
-    
 }
 
 .Introduction{
@@ -112,7 +118,11 @@ header {
     text-decoration: underline;
 }
 
-
 .Contact {
     margin: 5%;
+}
+
+footer img{
+    width: 30px;
+    margin-left: 5%;
 }
